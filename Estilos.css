@@ -1,0 +1,57 @@
+p {
+    background-color: white;
+}
+
+
+/* Selector etiqueta */
+
+.clase {
+    color: red;
+}
+
+
+/* Selector clase */
+
+#ident {
+    color: green;
+}
+
+
+/* Selector identificador */
+
+* {
+    font-style: italic;
+}
+
+
+/* Selector universal */
+
+p a {
+    background-color: orange;
+    font-size: 27px;
+}
+
+
+/* Selector descendiente */
+
+h3,
+small {
+    color: blue;
+}
+
+
+/* Combinación de selectores */
+
+div>span {
+    color: pink;
+}
+
+
+/* Selector de hijos */
+
+span+small {
+    background-color: yellow;
+}
+
+
+/* Selector adyacente */
